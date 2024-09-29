@@ -30,19 +30,19 @@ void ADCharacterBase::InitAbilityActorInfo()
 {
 }
 
-void ADCharacterBase::ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level) const
-{
-	check(IsValid(GetAbilitySystemComponent()));
-	check(GameplayEffectClass);
-	FGameplayEffectContextHandle ContextHandle = GetAbilitySystemComponent()->MakeEffectContext();
-	ContextHandle.AddSourceObject(this);
-	const FGameplayEffectSpecHandle SpecHandle = GetAbilitySystemComponent()->MakeOutgoingSpec(GameplayEffectClass, Level, ContextHandle);
-	GetAbilitySystemComponent()->ApplyGameplayEffectSpecToTarget(*SpecHandle.Data.Get(), GetAbilitySystemComponent());
-}
+// void ADCharacterBase::ApplyEffectToSelf(TSubclassOf<UGameplayEffect> GameplayEffectClass, float Level) const
+// {
+// 	check(IsValid(GetAbilitySystemComponent()));
+// 	check(GameplayEffectClass);
+// 	FGameplayEffectContextHandle ContextHandle = GetAbilitySystemComponent()->MakeEffectContext();
+// 	ContextHandle.AddSourceObject(this);
+// 	const FGameplayEffectSpecHandle SpecHandle = GetAbilitySystemComponent()->MakeOutgoingSpec(GameplayEffectClass, Level, ContextHandle);
+// 	GetAbilitySystemComponent()->ApplyGameplayEffectSpecToTarget(*SpecHandle.Data.Get(), GetAbilitySystemComponent());
+// }
 
 void ADCharacterBase::InitializeAttributes() const
 {
-	ApplyEffectToSelf(PrimaryAttributes, 1.f);
+	//ApplyEffectToSelf(PrimaryAttributes, 1.f);
 }
 
 void ADCharacterBase::GrantAbilities()

@@ -7,7 +7,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="" />
+    <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlphaDawn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/AlphaDawn.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Content/WrinkleSetup/ExpPoseAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Content/WrinkleSetup/ExpSequence.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Content/WrinkleSetup/WrinkleAnimBlueprint.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/RLPlugin.uplugin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Resources/ButtonIcon_40x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Resources/Icon128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Private/CCFbxFactory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Private/CCImportUI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Private/RLShaderData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Private/RLString.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/CCApplyTextureToMetaHuman.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/CCImportWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLMaterialData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLPhysicClothData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLPhysicCollisionShapeData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLPlugin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLPluginCommands.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLPluginStyle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/Public/RLWrinkleData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/RLPlugin/Source/RLPlugin/RLPlugin.Build.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DCharacterBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DCharacterBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAbilitySystemComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DCharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DPlayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/GAS/DAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/GAS/DAbilitySystemComponent.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +66,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AlphaDawn.uproject" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Actors/EffectActor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Actors/Projectiles/Projectile.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Actors/Weapon.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -45,6 +80,8 @@
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/DPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAbilitySystemComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAttributeSet.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Input/DInputComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Input/DInputConfig.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Interfaces/CombatInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Interfaces/PlayerInterface.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Item/Item.cpp" root0="SKIP_HIGHLIGHTING" />
@@ -64,8 +101,10 @@
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Framework/DGameModeBase.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Framework/DPlayerController.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Framework/DPlayerState.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/GAS/DAbilitySystemComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/GAS/DAbilitySystemComponent.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/GAS/DAttributeSet.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Input/DInputComponent.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Input/DInputConfig.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Interfaces/CombatInterface.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Interfaces/PlayerInterface.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Public/Item/Item.h" root0="SKIP_HIGHLIGHTING" />
@@ -82,8 +121,9 @@
     <setting file="file://$PROJECT_DIR$/../Reparation/Source/Reparation/Public/UI/Inventory/RItemTooltip.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Reparation/Source/Reparation/Public/UI/Inventory/RItemWidget.h" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -93,22 +133,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.AlphaDawn.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.AlphaDawn.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AlphaDawn" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -200,12 +240,16 @@
       <workItem from="1727110377593" duration="6282000" />
       <workItem from="1727117252022" duration="2580000" />
       <workItem from="1727119965190" duration="436000" />
+      <workItem from="1727124652824" duration="506000" />
+      <workItem from="1727125233715" duration="1708000" />
+      <workItem from="1727130408231" duration="2825000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />

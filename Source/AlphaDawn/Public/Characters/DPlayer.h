@@ -4,10 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Characters/DCharacterBase.h"
+#include "GameplayTagContainer.h"
 #include "DPlayer.generated.h"
 
+class AWeapon;
+class UEquipmentComponent;
 class UInputMappingContext;
 class UDAbilitySystemComponent;
+class UDInputConfig;
 /**
  * 
  */
@@ -18,10 +22,16 @@ class ALPHADAWN_API ADPlayer : public ADCharacterBase
 	
 public:
     	
-    	ADPlayer();
+	ADPlayer();
 
 	virtual void PossessedBy(AController* NewController) override;
 	virtual void OnRep_PlayerState() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components")
+	UEquipmentComponent* Gear;
+	
+	UPROPERTY()
+	AWeapon* Weapon;
 
 protected:
 	
@@ -35,9 +45,19 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputMappingContext* PlayerMappingContext;
+	
+	UPROPERTY(BlueprintReadWrite, Category = "Combat")
+	AActor* CombatTarget;
 
 private:
 	virtual void InitAbilityActorInfo() override;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Input")
+	UDInputConfig* InputConfig;
+
+	void AbilityInputTagPressed(FGameplayTag InputTag);
+	void AbilityInputTagReleased(FGameplayTag InputTag);
+	void AbilityInputTagHeld(FGameplayTag InputTag);
 
 	UPROPERTY()
 	UDAbilitySystemComponent* DAbilitySystemComponent;
