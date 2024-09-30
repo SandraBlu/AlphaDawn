@@ -13,5 +13,9 @@ UCLASS()
 class ALPHADAWN_API UItemWidget : public UUserWidget
 {
 	GENERATED_BODY()
+public:
+
+	UPROPERTY(BlueprintReadOnly, Category = "Inventory Item Widget", meta = (ExposeOnSpawn = true))
+	class UItem* Item;
 	
 };

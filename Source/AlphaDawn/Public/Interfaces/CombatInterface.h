@@ -84,8 +84,8 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	UNiagaraSystem* GetBloodEffect();
 
-	//UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
-	//ECharacterClass GetCharacterClass();
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+	ECharacterClass GetCharacterClass();
 	
 	virtual FOnASCRegistered GetOnASCRegisteredDelegate() = 0;
 	virtual FOnDeath GetOnDeathDelegate() = 0;

@@ -3,3 +3,8 @@
 
 #include "UI/GAS/DUserWidget.h"
 
+void UDUserWidget::SetWidgetController(UObject* InWidgetController)
+{
+	WidgetController = InWidgetController;
+	WidgetControllerSet();
+}

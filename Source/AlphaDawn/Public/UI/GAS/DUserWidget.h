@@ -13,5 +13,17 @@ UCLASS()
 class ALPHADAWN_API UDUserWidget : public UUserWidget
 {
 	GENERATED_BODY()
+
+public:
+
+	UFUNCTION(BlueprintCallable)
+	void SetWidgetController(UObject* InWidgetController);
+	
+	UPROPERTY(BlueprintReadOnly)
+	UObject* WidgetController;
+
+protected:
+	UFUNCTION(BlueprintImplementableEvent)
+	void WidgetControllerSet();
 	
 };
