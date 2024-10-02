@@ -1,0 +1,74 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "Actors/Projectiles/OverlapMissile.h"
+
+#include "AbilitySystemComponent.h"
+#include "AbilitySystemBlueprintLibrary.h"
+#include "NiagaraFunctionLibrary.h"
+#include "Components/SphereComponent.h"
+#include "Framework/BFLAbilitySystem.h"
+#include "Kismet/GameplayStatics.h"
+
+AOverlapMissile::AOverlapMissile()
+{
+	PrimaryActorTick.bCanEverTick = false;
+	SphereComp->SetSphereRadius(20.0f);
+}
+
+void AOverlapMissile::OnActorOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if (!IsValidOverlap(OtherActor)) return;
+	if (!bHit) OnHit();
+	if (HasAuthority())
+	{
+		if (UAbilitySystemComponent* TargetASC = UAbilitySystemBlueprintLibrary::GetAbilitySystemComponent(OtherActor))
+		{
+			const FVector DeathImpulse = GetActorForwardVector() * DamageEffectParams.DeathImpulseMagnitude;
+			DamageEffectParams.DeathImpulse = DeathImpulse;
+			const bool bKnockback = FMath::RandRange(1, 100) <DamageEffectParams.KnockbackChance;
+			if (bKnockback)
+			{
+				FRotator Rotation = GetActorRotation();
+				Rotation.Pitch = 25.f;
+				const FVector KnockbackDirection = Rotation.Vector();
+				const FVector KnockbackForce = KnockbackDirection * DamageEffectParams.KnockbackMagnitude;
+				DamageEffectParams.KnockbackForce = KnockbackForce;
+			}
+			
+			DamageEffectParams.TargetAbilitySystemComponent = TargetASC;
+			UBFLAbilitySystem::ApplyDamageEffect(DamageEffectParams);
+		}
+		Destroy();
+	}
+	else bHit = true;
+}
+
+void AOverlapMissile::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	SphereComp->OnComponentBeginOverlap.AddDynamic(this, &AOverlapMissile::OnActorOverlap);
+}
+
+void AOverlapMissile::OnHit()
+{
+	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactVFX, GetActorLocation());
+	UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation());
+	bHit = true;
+}
+
+void AOverlapMissile::Destroyed()
+{
+	if (!bHit && !HasAuthority()) OnHit();
+	Super::Destroyed();
+}
+
+bool AOverlapMissile::IsValidOverlap(AActor* OtherActor)
+{
+	if (DamageEffectParams.SourceAbilitySystemComponent == nullptr) return false;
+	AActor* SourceAvatarActor = DamageEffectParams.SourceAbilitySystemComponent->GetAvatarActor();
+	if (SourceAvatarActor == OtherActor) return false;
+	if (!UBFLAbilitySystem::IsNotFriend(SourceAvatarActor, OtherActor)) return false;
+	return true;
+}

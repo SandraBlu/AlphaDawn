@@ -7,8 +7,65 @@
 #include "DGameplayTags.h"
 #include "Engine/OverlapResult.h"
 #include "Framework/DGameModeBase.h"
+#include "Framework/DPlayerState.h"
 #include "Interfaces/CombatInterface.h"
 #include "Kismet/GameplayStatics.h"
+#include "UI/GAS/AlphaHUD.h"
+#include "UI/GAS/Controllers/WidgetController.h"
+
+bool UBFLAbilitySystem::MakeWidgetControllerParams(const UObject* WorldContextObject, FWidgetControllerParams& OutWCParams, AAlphaHUD*& OutAlphaHUD)
+{
+	if (APlayerController* PC = UGameplayStatics::GetPlayerController(WorldContextObject, 0))
+	{
+		OutAlphaHUD = Cast<AAlphaHUD>(PC->GetHUD());
+		if (OutAlphaHUD)
+		{
+			ADPlayerState* PS = PC->GetPlayerState<ADPlayerState>();
+			UAbilitySystemComponent* ASC = PS->GetAbilitySystemComponent();
+			UAttributeSet* AS = PS->GetAttributeSet();
+			OutWCParams.AttributeSet = AS;
+			OutWCParams.AbilitySystemComponent = ASC;
+			OutWCParams.PlayerState = PS;
+			OutWCParams.PlayerController= PC;
+			FWidgetControllerParams(PC, PS, ASC, AS);
+			return true;
+		}
+	}
+	return false;
+}
+
+UOverlayWidgetController* UBFLAbilitySystem::GetOverlayWidgetController(const UObject* WorldContextObject)
+{
+	FWidgetControllerParams WCParams;
+	AAlphaHUD* AlphaHUD = nullptr;
+	if (MakeWidgetControllerParams(WorldContextObject, WCParams, AlphaHUD))
+	{
+		return AlphaHUD->GetOverlayWidgetController(WCParams);
+	}
+	return nullptr;
+}
+
+UAttributeMenuController* UBFLAbilitySystem::GetAttributeMenuController(const UObject* WorldContextObject)
+{
+	FWidgetControllerParams WCParams;
+	AAlphaHUD* AlphaHUD = nullptr;
+	if (MakeWidgetControllerParams(WorldContextObject, WCParams, AlphaHUD))
+	{
+		return AlphaHUD->GetAttributeMenuWidgetController(WCParams);
+	}
+	return nullptr;
+}
+
+UAbilityMenuController* UBFLAbilitySystem::GetAbilityMenuController(const UObject* WorldContextObject)
+{
+	FWidgetControllerParams WCParams;
+	AAlphaHUD* AlphaHUD = nullptr;
+	if (MakeWidgetControllerParams(WorldContextObject, WCParams, AlphaHUD))
+	{
+		return AlphaHUD->GetAbilityMenuWidgetController(WCParams);
+	}
+	return nullptr;
+}
 
 void UBFLAbilitySystem::InitializeDefaultAttributes(const UObject* WorldContextObject, ECharacterClass CharacterClass,
                                                     float Level, UAbilitySystemComponent* ASC)

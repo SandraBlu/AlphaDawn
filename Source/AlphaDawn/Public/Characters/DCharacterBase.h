@@ -10,6 +10,7 @@
 #include "Interfaces/CombatInterface.h"
 #include "DCharacterBase.generated.h"
 
+class UDebuffNiagaraComponent;
 class UGameplayAbility;
 class UGameplayEffect;
 class UAttributeSet;
@@ -92,8 +93,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Combat")
 	USoundBase* DeathCry;
 
-	//UPROPERTY(VisibleAnywhere)
-	//UDebuffNiagaraComponent* EffectDebuffComponent;
+	UPROPERTY(VisibleAnywhere)
+	UDebuffNiagaraComponent* EffectDebuffComponent;
 
 private:
 	
@@ -115,8 +116,5 @@ private:
 	
 	UPROPERTY(VisibleAnywhere, Category="PassiveEffects")
 	USceneComponent* EffectAttachComp;
-	
-	
-	
 
 };

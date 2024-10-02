@@ -13,7 +13,9 @@
 				"CoreUObject",
 				"UMG",
 				"GameplayAbilities",
-				"EnhancedInput"
+				"EnhancedInput",
+				"Niagara",
+				"AIModule"
 			]
 		}
 	],

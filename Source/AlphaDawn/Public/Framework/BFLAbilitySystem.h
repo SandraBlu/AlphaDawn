@@ -11,10 +11,10 @@
 #include "BFLAbilitySystem.generated.h"
 
 class UAbilityInfo;
-//class URAbilityMenuController;
+class UAbilityMenuController;
 class UAbilitySystemComponent;
-//class URAttributeMenuController;
-//class UROverlayWidgetController;
+class UAttributeMenuController;
+class UOverlayWidgetController;
 struct FWidgetControllerParams;
 /**
  * 
@@ -27,17 +27,17 @@ class ALPHADAWN_API UBFLAbilitySystem : public UBlueprintFunctionLibrary
 public:
 
 	//Widget Controllers
-	//UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
-	//static bool MakeWidgetControllerParams(const UObject* WorldContextObject, FWidgetControllerParams& OutWCParams, ARHUD*& OutRHUD);
+	UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
+	static bool MakeWidgetControllerParams(const UObject* WorldContextObject, FWidgetControllerParams& OutWCParams, AAlphaHUD*& OutRHUD);
 
-	//UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
-	//static UROverlayWidgetController* GetOverlayWidgetController(const UObject* WorldContextObject);
+	UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
+	static UOverlayWidgetController* GetOverlayWidgetController(const UObject* WorldContextObject);
 
-	//UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
-	//static URAttributeMenuController* GetAttributeMenuController(const UObject* WorldContextObject);
+	UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
+	static UAttributeMenuController* GetAttributeMenuController(const UObject* WorldContextObject);
 
-	//UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
-	//static URAbilityMenuController* GetAbilityMenuController(const UObject* WorldContextObject);
+	UFUNCTION(BlueprintPure, Category = "RBFL|WidgetController", meta = (DefaultToSelf = "WorldContextObject"))
+	static UAbilityMenuController* GetAbilityMenuController(const UObject* WorldContextObject);
 	
 	//Initializers
 	UFUNCTION(BlueprintCallable, Category = "RBFL|CharacterClassDefaults")

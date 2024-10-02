@@ -8,8 +8,12 @@
 #include "DGameplayTags.h"
 #include "GameplayEffect.h"
 #include "GameplayEffectExtension.h"
+#include "Framework/BFLAbilitySystem.h"
+#include "Framework/DPlayerController.h"
 #include "GameFramework/Character.h"
+#include "GameplayEffectComponents/TargetTagsGameplayEffectComponent.h"
 #include "Interfaces/CombatInterface.h"
+#include "Interfaces/PlayerInterface.h"
 #include "Net/UnrealNetwork.h"
 
 UDAttributeSet::UDAttributeSet()
@@ -129,11 +133,35 @@ void UDAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallbackD
 	{
 		SetEnergy(FMath::Clamp(GetEnergy(), 0.f, GetMaxEnergy()));
 	}
+	if (Data.EvaluatedData.Attribute == GetDamageAttribute())
+	{
+		HandleIncomingDamage(Props);
+	}
+	if (Data.EvaluatedData.Attribute == GetXPAttribute())
+	{
+		HandleIncomingXP(Props);
+	}
 }
 
 void UDAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute, float OldValue, float NewValue)
 {
 	Super::PostAttributeChange(Attribute, OldValue, NewValue);
+
+	if (Attribute == GetMaxHealthAttribute() && bRestoreFullHealth)
+	{
+		SetHealth(GetMaxHealth());
+		bRestoreFullHealth = false;
+	}
+	if (Attribute ==GetMaxStaminaAttribute() && bRestoreFullStamina)
+	{
+		SetStamina(GetMaxStamina());
+		bRestoreFullStamina = false;
+	}
+	if (Attribute ==GetMaxEnergyAttribute() && bRestoreFullEnergy)
+	{
+		SetEnergy(GetMaxEnergy());
+		bRestoreFullEnergy = false;
+	}
 }
 
 void UDAttributeSet::SetEffectProperties(const FGameplayEffectModCallbackData& Data, FEffectProperties& Props) const
@@ -168,23 +196,150 @@ void UDAttributeSet::SetEffectProperties(const FGameplayEffectModCallbackData& D
 
 void UDAttributeSet::HandleIncomingDamage(const FEffectProperties& Props)
 {
+	const float LocalDamage = GetDamage();
+	SetDamage(0.f);
+	if (LocalDamage > 0.f)
+	{
+		const float NewHealth = GetHealth() - LocalDamage;
+		SetHealth(FMath::Clamp(NewHealth, 0.f, GetMaxHealth()));
+
+		const bool bFatal = NewHealth <= 0.f;
+		if (bFatal)
+		{
+			if (ICombatInterface* CombatInterface = Cast<ICombatInterface>(Props.TargetAvatarActor))
+			{
+				CombatInterface->Die(UBFLAbilitySystem::GetDeathImpulse(Props.EffectContextHandle));
+			}
+			SendXPEvent(Props);
+		}
+		else
+		{
+			FGameplayTagContainer TagContainer;
+			TagContainer.AddTag(FDGameplayTags::Get().ability_HitReact);
+			Props.TargetASC->TryActivateAbilitiesByTag(TagContainer);
+			const FVector& KnockbackForce = UBFLAbilitySystem::GetKnockbackForce(Props.EffectContextHandle);
+			if (!KnockbackForce.IsNearlyZero(1.f))
+			{
+				Props.TargetCharacter->LaunchCharacter(KnockbackForce, true, true);
+			}
+		}
+		const bool bBlock = UBFLAbilitySystem::IsBlockedHit(Props.EffectContextHandle);
+		const bool bDodge = UBFLAbilitySystem::IsDodgedHit(Props.EffectContextHandle);
+		const bool bCriticalHit = UBFLAbilitySystem::IsCriticalHit(Props.EffectContextHandle);
+		ShowFloatingText(Props, LocalDamage,bBlock, bDodge, bCriticalHit);
+		if (UBFLAbilitySystem::IsSuccessfulDebuff(Props.EffectContextHandle))
+		{
+			Debuff(Props);
+		}
+	}
 }
 
 void UDAttributeSet::HandleIncomingXP(const FEffectProperties& Props)
 {
+	const float LocalXP = GetXP();
+	SetXP(0.f);
+	//Add to XP
+	const int32 CurrentLevel = ICombatInterface::Execute_GetPlayerLevel(Props.SourceCharacter);
+	const int32 CurrentXP = IPlayerInterface::Execute_GetXP(Props.SourceCharacter);
+	const int32 NewLevel = IPlayerInterface::Execute_FindLevelForXP(Props.SourceCharacter, CurrentXP + LocalXP);
+	const int32 NumLevelUps = NewLevel - CurrentLevel;
+	if (NumLevelUps > 0)
+	{
+		IPlayerInterface::Execute_AddToPlayerLevel(Props.SourceCharacter, NumLevelUps);
+		
+		int32 AttributePtsReward = 0;
+		int32 AbilityPtsReward = 0;
+
+		for (int32 i=0; i < NumLevelUps; ++i)
+		{
+			AttributePtsReward += IPlayerInterface::Execute_GetAttributePtsReward(Props.SourceCharacter, CurrentLevel + i);
+			AbilityPtsReward += IPlayerInterface::Execute_GetAbilityPtsReward(Props.SourceCharacter, CurrentLevel + i);	
+		}
+		
+		IPlayerInterface::Execute_AddToAttributePts(Props.SourceCharacter, AttributePtsReward);
+		IPlayerInterface::Execute_AddToAbilityPts(Props.SourceCharacter, AbilityPtsReward);
+
+		bRestoreFullHealth = true;
+		bRestoreFullStamina = true;
+		bRestoreFullEnergy = true;
+			
+		IPlayerInterface::Execute_LevelUp(Props.SourceCharacter);
+	}
+	IPlayerInterface::Execute_AddToXP(Props.SourceCharacter, LocalXP);
 }
 
 void UDAttributeSet::Debuff(const FEffectProperties& Props)
 {
+	//SetEffectProperties----------------------------------------------------------------------
+	const FDGameplayTags& Tag = FDGameplayTags::Get();
+	FGameplayEffectContextHandle EffectContext = Props.SourceASC->MakeEffectContext();
+	EffectContext.AddSourceObject(Props.SourceAvatarActor);
+	
+	const FGameplayTag DamageType = UBFLAbilitySystem::GetDamageType(Props.EffectContextHandle);
+	const float DebuffDamage = UBFLAbilitySystem::GetDebuffDamage(Props.EffectContextHandle);
+	const float DebuffDuration = UBFLAbilitySystem::GetDebuffDuration(Props.EffectContextHandle);
+	const float DebuffFrequency = UBFLAbilitySystem::GetDebuffFrequency(Props.EffectContextHandle);
+	
+	FString DebuffName = FString::Printf(TEXT("DynamicDebuff_%s"), *DamageType.ToString());
+	UGameplayEffect* Effect = NewObject<UGameplayEffect>(GetTransientPackage(), FName(DebuffName));
+
+	Effect->DurationPolicy = EGameplayEffectDurationType::HasDuration;
+	Effect->Period = DebuffFrequency;
+	Effect->DurationMagnitude = FScalableFloat(DebuffDuration);
+
+	UTargetTagsGameplayEffectComponent& AssetTagsComponent = Effect->FindOrAddComponent<UTargetTagsGameplayEffectComponent>();
+	FInheritedTagContainer InheritedTagContainer;
+	InheritedTagContainer.Added.AddTag(Tag.DamageTypeToDebuff[DamageType]);
+	AssetTagsComponent.SetAndApplyTargetTagChanges(InheritedTagContainer);
+	Effect->StackingType = EGameplayEffectStackingType::AggregateBySource;
+	Effect->StackLimitCount = 1;
+
+	const int32 Index = Effect->Modifiers.Num();
+	Effect->Modifiers.Add(FGameplayModifierInfo());
+	FGameplayModifierInfo& ModInfo = Effect->Modifiers[Index];
+
+	ModInfo.ModifierMagnitude = FScalableFloat(DebuffDamage);
+	ModInfo.ModifierOp = EGameplayModOp::Additive;
+	ModInfo.Attribute = UDAttributeSet::GetDamageAttribute();
+	
+	if  (FGameplayEffectSpec* MutableSpec = new FGameplayEffectSpec(Effect, EffectContext, 1.f))
+	{
+		FDGameplayEffectContext* DContext = static_cast<FDGameplayEffectContext*>(MutableSpec->GetContext().Get());
+		TSharedPtr<FGameplayTag> DebuffDamageType = MakeShareable(new FGameplayTag(DamageType));
+		DContext->SetDamageType(DebuffDamageType);
+		Props.TargetASC->ApplyGameplayEffectSpecToSelf(*MutableSpec);
+	}
 }
 
-void UDAttributeSet::ShowFloatingText(const FEffectProperties& Props, float DamageAmount, bool bBlockedHit,
-	bool bDodgedHit, bool bCriticalHit) const
+void UDAttributeSet::ShowFloatingText(const FEffectProperties& Props, float DamageAmount, bool bBlockedHit, bool bDodgedHit, bool bCriticalHit) const
 {
+	if (Props.SourceCharacter != Props.TargetCharacter)
+	{
+		if(ADPlayerController* PC = Cast<ADPlayerController>(Props.SourceCharacter->Controller))
+		{
+			PC->ShowDamageNumber(DamageAmount, Props.TargetCharacter, bBlockedHit, bDodgedHit, bCriticalHit);
+			return;
+		}
+		if(ADPlayerController* PC = Cast<ADPlayerController>(Props.TargetCharacter->Controller))
+		{
+			PC->ShowDamageNumber(DamageAmount, Props.TargetCharacter, bBlockedHit, bDodgedHit, bCriticalHit);
+		}
+	}
 }
 
 void UDAttributeSet::SendXPEvent(const FEffectProperties& Props)
 {
+	if (Props.TargetCharacter->Implements<UCombatInterface>())
+	{
+		const int32 TargetLevel = ICombatInterface::Execute_GetPlayerLevel(Props.TargetCharacter);
+		const ECharacterClass TargetClass = ICombatInterface::Execute_GetCharacterClass(Props.TargetCharacter);
+		const int32 XPReward = UBFLAbilitySystem::GetXPRewardForEnemySlay(Props.TargetCharacter, TargetClass, TargetLevel);
+		const FDGameplayTags& GameplayTags = FDGameplayTags::Get();
+		FGameplayEventData Payload;
+		Payload.EventTag = GameplayTags.Attributes_meta_xp;
+		Payload.EventMagnitude = XPReward;
+		UAbilitySystemBlueprintLibrary::SendGameplayEventToActor(Props.SourceCharacter, GameplayTags.Attributes_meta_xp, Payload);
+	}
 }
 
 void UDAttributeSet::OnRep_Health(const FGameplayAttributeData& OldHealth) const

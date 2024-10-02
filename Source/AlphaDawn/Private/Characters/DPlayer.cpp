@@ -14,9 +14,11 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "GAS/DAbilitySystemComponent.h"
 #include "Components/EquipmentComponent.h"
+#include "Framework/DPlayerController.h"
 #include "GAS/DataAssets/LevelUpInfo.h"
 #include "Input/DInputComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "UI/GAS/AlphaHUD.h"
 
 ADPlayer::ADPlayer()
 {
@@ -213,7 +215,14 @@ void ADPlayer::InitAbilityActorInfo()
 	AbilitySystemComponent = DPS->GetAbilitySystemComponent();
 	AttributeSet = DPS->GetAttributeSet();
 	OnASCRegistered.Broadcast(AbilitySystemComponent);
-
+	
+	if (ADPlayerController* DPC = Cast<ADPlayerController>(GetController()))
+	{
+		if (AAlphaHUD* DHUD = Cast<AAlphaHUD>(DPC->GetHUD()))
+		{
+			DHUD->InitOverlay(DPC, DPS, AbilitySystemComponent, AttributeSet);
+		}
+	}
 	InitializeAttributes();
 }
 
@@ -246,6 +255,10 @@ UDAbilitySystemComponent* ADPlayer::GetASC()
 
 void ADPlayer::MulticastLevelUpVFX_Implementation()
 {
+	if (IsValid(LevelUpFX))
+	{
+		LevelUpFX->Activate(true);
+	}
 }
 
 void ADPlayer::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)

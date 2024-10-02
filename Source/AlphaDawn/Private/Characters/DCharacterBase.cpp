@@ -4,17 +4,19 @@
 #include "Characters/DCharacterBase.h"
 
 #include "AbilitySystemComponent.h"
+#include "DGameplayTags.h"
 #include "GameplayEffectTypes.h"
 #include "GAS/DAbilitySystemComponent.h"
+#include "GAS/DebuffNiagaraComponent.h"
 
 // Sets default values
 ADCharacterBase::ADCharacterBase()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	//EffectDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>("EffectDebuffComponent");
-	//EffectDebuffComponent->SetupAttachment(GetRootComponent());
-	//EffectDebuffComponent->DebuffTag = FDGameplayTags::Get().Debuff_Stun;
+	EffectDebuffComponent = CreateDefaultSubobject<UDebuffNiagaraComponent>("EffectDebuffComponent");
+	EffectDebuffComponent->SetupAttachment(GetRootComponent());
+	EffectDebuffComponent->DebuffTag = FDGameplayTags::Get().Debuff_Stun;
 	EffectAttachComp = CreateDefaultSubobject<USceneComponent>("EffectAttachPoint");
 	EffectAttachComp->SetupAttachment(GetRootComponent());
 
@@ -26,7 +28,6 @@ ADCharacterBase::ADCharacterBase()
 void ADCharacterBase::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-	Super::Tick(DeltaSeconds);
 	EffectAttachComp->SetWorldRotation((FRotator::ZeroRotator));
 }
 
@@ -35,8 +36,7 @@ UAbilitySystemComponent* ADCharacterBase::GetAbilitySystemComponent() const
 	return AbilitySystemComponent;
 }
 
-float ADCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator,
-	AActor* DamageCauser)
+float ADCharacterBase::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
 {
 	float DamageTaken =  Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
 	OnDamageDelegate.Broadcast(DamageTaken);
@@ -97,7 +97,6 @@ FOnDamageSignature& ADCharacterBase::GetOnDamageSignature()
 	return OnDamageDelegate;
 }
 
-// Called when the game starts or when spawned
 void ADCharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
