@@ -78,7 +78,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnEndLooting);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnCurrencyChanged, const int32, OldCurrency, const int32, NewCurrency);
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS( ClassGroup=(Inventory), meta=(BlueprintSpawnableComponent) )
 class ALPHADAWN_API UInventoryComponent : public UActorComponent
 {
 	GENERATED_BODY()
