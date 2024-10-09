@@ -66,8 +66,8 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	bool IsDead() const;
 
-	//UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	//void FaceTarget(const FVector& Target);
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+	void FaceTarget(const FVector& Target);
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	AActor* GetAvatar();
