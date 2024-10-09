@@ -8,105 +8,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_DrawKatana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_DrawKatana.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff03.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff03.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_01.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Firebolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Firebolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Potions/BP_HealthPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Potions/BP_HealthPotion.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Effects/Stats/GE_PotionHealth.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Effects/Stats/GE_PotionHealth.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/AC_Dissolve.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/AC_Dissolve.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AbilityInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AbilityInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AttributeInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AttributeInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ControllerData/DT_NarrativeInputActions.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_Burn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_Burn.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_ExtinguishFire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_ExtinguishFire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_PrimaryAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_PrimaryAttributes.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_ResistanceAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_ResistanceAttributes.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_SecondaryAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_SecondaryAttributes.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_VitalAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_VitalAttributes.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/UI/Equipment/BP_EquipCapture.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/UI/Equipment/M_PlayerPreview.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/UI/Equipment/RT_PlayerPreview.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Sword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Sword.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUGrenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUThrow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BP_InteractPickup.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BP_InteractPickup.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_FlowingUIBG1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_FlowingUIBG1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/M_FlowingUIBG.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/M_FlowingUIBG.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/TilingNoise05.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/TilingNoise05.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Inventory/DT_RichText_NarrativeInventory1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Inventory/DT_RichText_NarrativeInventory1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/ProgressBarFill.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/ProgressBarFill.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/T_Ink_White.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/T_Ink_White.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_Blade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_Blade.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_Fittings_Generic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_Fittings_Generic.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_LeatherHandle_Generic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/M_LeatherHandle_Generic.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Belt_Leather.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Belt_Leather.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Glitter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Glitter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Polished.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Polished.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Sharpened.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Sharpened.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Stained.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Stained.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Tang.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Katana_Tang.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_MetalWork_Copper.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_MetalWork_Copper.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_MetalWork_Gold.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_MetalWork_Gold.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_CastIron.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_CastIron.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Painted.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Painted.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Pure.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Pure.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Scratched_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Scratched_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Scratched_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Scratched_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Shakudo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Metal_Shakudo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Paint_Urushi.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Paint_Urushi.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Wood_Katsura.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_Wood_Katsura.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_WoodenPeg.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/MaterialFunction/MF_WoodenPeg.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Blade_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Blade_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Fittings_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Fittings_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Handle_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Materials/Uchigatana_2/MI_Uchigatana_2_Handle_1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2_PhysicsAsset.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2_PhysicsAsset.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Meshes/SkeletalMeshes/SK_Uchigatana_2_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Glitter_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Glitter_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Jigane_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Jigane_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Nie_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Nie_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rough_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rough_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rough_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rough_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rusted_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rusted_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rusted_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Blade/T_Blade_Rusted_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Leather_1_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Leather_1_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Leather_1_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Leather_1_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_CastIron_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_Copper_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_Copper_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_Dirty_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_Dirty_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_GoldWork_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_2_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Metal_Scratched_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_Colored_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_Colored_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Paint_Urushi_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Wood_Katsura_BC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Wood_Katsura_BC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Wood_Katsura_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Detail_Mountings/T_Wood_Katsura_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_AOMaps/T_Uchigatana_1_Mountings_AO.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_AOMaps/T_Uchigatana_1_Mountings_AO.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_AOMaps/T_Uchigatana_2_Mountings_AO.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_AOMaps/T_Uchigatana_2_Mountings_AO.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Otachi_1_Blade_1_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Otachi_1_Blade_1_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Otachi_1_Blade_2_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Otachi_1_Blade_2_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_SwordTang_Tachi_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_SwordTang_Tachi_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_SwordTang_Uchigatana_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_SwordTang_Uchigatana_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_1_Mountings_1_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_1_Mountings_1_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_1_Mountings_2_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_1_Mountings_2_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Blade_1_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Blade_1_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Blade_2_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Blade_2_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Mountings_1_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Mountings_1_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Mountings_2_M.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_Masks/T_Uchigatana_2_Mountings_2_M.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Blade_Tachi_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Blade_Tachi_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Blade_Uchigatana_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Blade_Uchigatana_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Uchigatana_1_Mountings_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Uchigatana_1_Mountings_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Uchigatana_2_Mountings_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Katana/Textures/Katana_NormalMaps/T_Uchigatana_2_Mountings_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Meshes/Materials/MI_DissolveEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Meshes/Materials/MI_DissolveEffect.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Meshes/Materials/M_DissolveEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Meshes/Materials/M_DissolveEffect.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/MI_Gas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/MI_Gas.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/M_Gas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/M_Gas.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Mesh/Combined/SM_Gas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Mesh/Combined/SM_Gas.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_Base.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_Mask.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_Mask.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_N.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Textures/T_Gas_N.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/ThrowingSystem/Art/Materials/M_Prediction_Arc.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/ThrowingSystem/Art/Materials/M_Prediction_Arc.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Controllers/BP_AbilityMenuController.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Controllers/BP_AttributeMenuController.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Controllers/BP_OverlayController.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/DataTables/DT_EffectMessages.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/DataTables/DT_EffectMessages.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/PlayerHUD/BP_HUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/PlayerHUD/BP_HUD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/PlayerHUD/UI_PlayerHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/PlayerHUD/UI_PlayerHUD.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Components/InventoryComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Components/InventoryComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_GhostHealthGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_GhostHealthGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_HealthGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_HealthGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/Globes/UI_AbilityGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/Globes/UI_AbilityGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityBar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_ActiveAbilityTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_ActiveAbilityTree.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_EquippedSkills.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_EquippedSkills.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_PassiveAbilityTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_PassiveAbilityTree.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_AttributeMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_AttributeMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_ButtonText.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_ButtonText.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Controllers/BP_AbilityMenuController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Controllers/BP_AbilityMenuController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryContainer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryContainer.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/PlayerMenu/UI_PlayerMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/PlayerMenu/UI_PlayerMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Health.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Health.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_ProgressGlobeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_ProgressGlobeBase.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +84,11 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://4" root0="FORCE_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://5" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://8" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlphaDawn.uproject" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/AI/DAIController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/AI/NPCBase.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -211,22 +166,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Uproject.AlphaDawn.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Uproject.AlphaDawn.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="AlphaDawn" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -324,6 +279,7 @@
       <workItem from="1727643730468" duration="24496000" />
       <workItem from="1727724698897" duration="5196000" />
       <workItem from="1727746846959" duration="14413000" />
+      <workItem from="1728046496285" duration="13777000" />
     </task>
     <servers />
   </component>
