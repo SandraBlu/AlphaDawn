@@ -8,57 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo1.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo2.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo3.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_DrawKatana.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_DrawKatana.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff03.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff03.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_01.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Firebolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Firebolt.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Components/AC_Dissolve.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Components/AC_Dissolve.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AbilityInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AbilityInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AttributeInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Data/DA_AttributeInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ControllerData/DT_NarrativeInputActions.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_Burn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_Burn.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_ExtinguishFire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/GE_ExtinguishFire.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_PrimaryAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_PrimaryAttributes.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_ResistanceAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_ResistanceAttributes.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_SecondaryAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_SecondaryAttributes.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_VitalAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Attributes/Player/GE_VitalAttributes.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Sword.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Sword.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUGrenade.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUThrow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Inventory/BP_InteractPickup.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BP_InteractPickup.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_GhostHealthGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_GhostHealthGlobe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_HealthGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/UI/Ability/Globes/MI_HealthGlobe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/Globes/UI_AbilityGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/Globes/UI_AbilityGlobe.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityBar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityBar.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_AbilityMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_ActiveAbilityTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_ActiveAbilityTree.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_EquippedSkills.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_EquippedSkills.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_PassiveAbilityTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Abilities/UI_PassiveAbilityTree.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_AttributeMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_AttributeMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_ButtonText.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Attributes/UI_ButtonText.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/GAS/Controllers/BP_AbilityMenuController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/GAS/Controllers/BP_AbilityMenuController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryContainer.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryContainer.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Inventory/UI_InventoryMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/PlayerMenu/UI_PlayerMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/PlayerMenu/UI_PlayerMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Health.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Health.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_ProgressGlobeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_ProgressGlobeBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BP_NPCBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_NPCBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/Characters/Animalia/BrownBear_F/Animations/AM_SitToStand.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Characters/Animalia/BrownBear_F/Animations/AM_SitToStand.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +230,7 @@
       <workItem from="1727643730468" duration="24496000" />
       <workItem from="1727724698897" duration="5196000" />
       <workItem from="1727746846959" duration="14413000" />
-      <workItem from="1728046496285" duration="13777000" />
+      <workItem from="1728046496285" duration="14498000" />
     </task>
     <servers />
   </component>
