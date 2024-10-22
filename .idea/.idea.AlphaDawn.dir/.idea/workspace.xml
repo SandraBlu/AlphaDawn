@@ -8,24 +8,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlphaDawn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/AlphaDawn.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/BP_Bear.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_Bear.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlphaDawn.uproject.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/AlphaDawn.uproject.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/BP_NPCBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_NPCBase.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/BP_Ranger.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BP_Ranger.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Characters/Ranger/Materials/Ranger_Female01/VisualRock4_Hair3_Bun_Transparency_LWHQ_Inst.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Characters/Ranger/Materials/Ranger_Female01/VisualRock4_Hair3_Bun_Transparency_LWHQ_Inst.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Characters/Ranger/Ranger_Female01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Characters/Ranger/Ranger_Female01.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Characters/Tronald/Tronald.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Characters/Tronald/Tronald.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/Characters/Tronald/Tronald_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/Characters/Tronald/Tronald_Skeleton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/NPC/SK_Ranger.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/NPC/SK_Ranger_Skel.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/CC_Shaders/HairShader/RL_Hair_Specular.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/CC_Shaders/HairShader/RL_Hair_Specular.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_FireBurstSFX.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_FireBurstSFX.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_MeleeBloodEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_MeleeBloodEffect.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/OpenWorldLocomotion/CharacterComponents/SystemComponents/OWL_Gliding_BP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/OpenWorldLocomotion/CharacterComponents/SystemComponents/OWL_Gliding_BP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/OpenWorldLocomotion/Glider/Glider.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/OpenWorldLocomotion/Glider/Glider.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interfaces/iAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interfaces/iAbility.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/Meshes/NakedPhelan.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/Meshes/NakedPhelan.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FX/VFX/Effects/FX_Mobile/ICE/combat/P_Circle_ChargeUp_Phase2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FX/VFX/Effects/FX_Mobile/ICE/combat/P_Circle_ChargeUp_Phase2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FX/VFX/SmokePackage/Fx/Niagara/NS_Fx_ContinuousBurstSmokeBomb.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FX/VFX/SmokePackage/Fx/Niagara/NS_Fx_ContinuousBurstSmokeBomb.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/FX/VFX/Stun/NS_Stars.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/FX/VFX/Stun/NS_Stars.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Fire/BP_Campfire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_ElectricMissile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_ElectricMissile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Projectiles/BP_Firebolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/BP_GrenadeExplosion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/BP_GrenadeExplosion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/BP_StunGrenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/BP_StunGrenade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/BP_Throwable.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/M_SplineGlow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/M_SplineGlow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/SM_Spline_Beam.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Throwables/SM_Spline_Beam.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/Data/DA_AbilityInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Data/DA_AbilityInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_Cloak.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_Cloak.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_ElectricityBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_ElectricityBolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_FireBolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_StunGrenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_StunGrenade.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_OnFire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_OnFire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_StunGrenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GameplayCues/GC_StunGrenade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/DA_InputConfig.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/DA_InputConfig.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Staff.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_Staff.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_BlastGrenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_GasGrenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUGrenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_PUThrow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_ThrowMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_ThrowMaster.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Inventory/Items/Weapons/StunGrenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/Items/Weapons/StunGrenade.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Landscape/Materials/Functions/MF_VTGroundBlend.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Landscape/Materials/Functions/MF_VTGroundBlend.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Landscape/Materials/LandscapeGrass/LG_C.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Landscape/Materials/LandscapeGrass/LG_C.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Landscape/Materials/MI_PlatSuisse.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Landscape/Materials/MI_PlatSuisse.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Landscape/Materials/M_Landscape_Height.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Landscape/Materials/M_Landscape_Height.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Landscape/VirtualTextures/RVT_Material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Landscape/VirtualTextures/RVT_Material.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MSPresets/M_MS_Default_Material/M_MS_Default_Material.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MSPresets/M_MS_Default_Material/M_MS_Default_Material.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/MSPresets/M_MS_Default_Material_VT/M_MS_Default_Material_VT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/MSPresets/M_MS_Default_Material_VT/M_MS_Default_Material_VT.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Test.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Test.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Interfaces/CombatInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Interfaces/CombatInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Conifer_Cone_wjvqffg/MI_Conifer_Cone_wjvqffg_2K.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Conifer_Cone_wjvqffg/MI_Conifer_Cone_wjvqffg_2K.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Mossy_Granite_Rock_rgfoh/MI_Mossy_Granite_Rock_rgfoh_4K.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Mossy_Granite_Rock_rgfoh/MI_Mossy_Granite_Rock_rgfoh_4K.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Nordic_Forest_Cluster_Rock_Small_xjijdiz/MI_Nordic_Forest_Cluster_Rock_Small_xjijdiz_2K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Nordic_Forest_Cluster_Rock_Small_xjijdiz/S_Nordic_Forest_Cluster_Rock_Small_xjijdiz_lod3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Nordic_Forest_Cluster_Rock_Small_xjijdiz/T_NordicForestClusterRockSmall_xjijdiz_2K_DpRF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Nordic_Forest_Cluster_Rock_Small_xjijdiz/T_Nordic_Forest_Cluster_Rock_Small_xjijdiz_2K_D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Nordic_Forest_Cluster_Rock_Small_xjijdiz/T_Nordic_Forest_Cluster_Rock_Small_xjijdiz_2K_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Old_Tree_Branch_wdyheh3bw/MI_Old_Tree_Branch_wdyheh3bw_2K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Old_Tree_Branch_wdyheh3bw/S_Old_Tree_Branch_wdyheh3bw_lod3_Var1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Old_Tree_Branch_wdyheh3bw/T_OldTreeBranch_wdyheh3bw_2K_DpRF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Old_Tree_Branch_wdyheh3bw/T_Old_Tree_Branch_wdyheh3bw_2K_D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Old_Tree_Branch_wdyheh3bw/T_Old_Tree_Branch_wdyheh3bw_2K_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Rock_Granite_rkksB/MI_Rock_Granite_rkksB_2K.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Rock_Granite_rkksB/MI_Rock_Granite_rkksB_2K.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Small_Mossy_Rock_wd3efe3/MI_Small_Mossy_Rock_wd3efe3_2K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Small_Mossy_Rock_wd3efe3/S_Small_Mossy_Rock_wd3efe3_lod3_Var1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Small_Mossy_Rock_wd3efe3/T_SmallMossyRock_wd3efe3_2K_DpRF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Small_Mossy_Rock_wd3efe3/T_Small_Mossy_Rock_wd3efe3_2K_D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Megascans/3D_Assets/Small_Mossy_Rock_wd3efe3/T_Small_Mossy_Rock_wd3efe3_2K_N.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Materials/M_Master.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Materials/M_Master.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Props/Structures/Barrel_Wooden/Materials/M_Barrel_Wooden.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Props/Structures/Barrel_Wooden/Materials/M_Barrel_Wooden.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Tileable_Materials/Lava_Rock/M_Lava_rock.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Tileable_Materials/Lava_Rock/M_Lava_rock.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Tileable_Materials/Rope/M_Rope.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Tileable_Materials/Rope/M_Rope.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Materials/MI_Staff_06.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Materials/MI_Staff_06.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Models/SM_Staff_06.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Models/SM_Staff_08.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Models/SM_Staff_08_Skel.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Models/SkinnedMesh/SK_ElectricStaff.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Fantasy_Staff/Models/SkinnedMesh/SK_ElectricStaff.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/MI_Gas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Materials/MI_Gas.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Mesh/Combined/SM_Gas.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/Tactical_Explosive_Pack/Mesh/Combined/SM_Gas.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ResourcePack/Weapons/ThrowingSystem/Art/Materials/M_Prediction_Arc.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ResourcePack/Weapons/ThrowingSystem/Art/Materials/M_Prediction_Arc.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/PlayerHUD/UI_PlayerHUD.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/PlayerHUD/UI_PlayerHUD.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +115,28 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://11" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://8" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Private/Logging/StructuredLog.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Private/Windows/WindowsErrorOutputDevice.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Public/Templates/SharedPointer.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlphaDawn.uproject" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/AI/DAIController.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -68,7 +150,7 @@
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Components/InventoryComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/BFLAbilitySystem.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/BFLInventory.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/DGameModeBase.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/DGameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/DPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/Framework/DPlayerState.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/GAS/DAbilitySystemComponent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -133,22 +215,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.AlphaDawn.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "UnrealLinkOptionsId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Uproject.AlphaDawn.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;UnrealLinkOptionsId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AlphaDawn" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -246,7 +328,10 @@
       <workItem from="1727643730468" duration="24496000" />
       <workItem from="1727724698897" duration="5196000" />
       <workItem from="1727746846959" duration="14413000" />
-      <workItem from="1728046496285" duration="18815000" />
+      <workItem from="1728046496285" duration="22846000" />
+      <workItem from="1728671712513" duration="8647000" />
+      <workItem from="1729371450002" duration="8684000" />
+      <workItem from="1729548399318" duration="3238000" />
     </task>
     <servers />
   </component>
@@ -256,7 +341,6 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
