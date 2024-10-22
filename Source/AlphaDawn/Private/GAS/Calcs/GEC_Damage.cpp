@@ -42,8 +42,6 @@ struct DDamageStatics
 		DEFINE_ATTRIBUTE_CAPTUREDEF(UDAttributeSet, ElectricResistance, Target, false);
 		DEFINE_ATTRIBUTE_CAPTUREDEF(UDAttributeSet, FireResistance, Target, false);
 		DEFINE_ATTRIBUTE_CAPTUREDEF(UDAttributeSet, IceResistance, Target, false);
-
-		
 	}
 };
 

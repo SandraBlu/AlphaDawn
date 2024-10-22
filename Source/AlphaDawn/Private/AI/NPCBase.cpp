@@ -44,6 +44,42 @@ ANPCBase::ANPCBase()
 	bUseControllerRotationPitch = false;
 	GetCharacterMovement()->bUseControllerDesiredRotation = true;
 }
+void ANPCBase::BeginPlay()
+{
+	Super::BeginPlay();
+	GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
+	InitAbilityActorInfo();
+	if (HasAuthority())
+	{
+		UBFLAbilitySystem::GiveStartupAbilities(this, AbilitySystemComponent, CharacterClass);
+	}
+	
+	if (UDUserWidget* EnemyHealthUI = Cast<UDUserWidget>(HealthBar->GetUserWidgetObject()))
+	{
+		EnemyHealthUI->SetWidgetController(this);
+	}
+
+	if (const UDAttributeSet* AS = Cast<UDAttributeSet>(AttributeSet))
+	{
+		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AS->GetHealthAttribute()).AddLambda(
+			[this](const FOnAttributeChangeData& Data)
+			{
+				OnHealthChange.Broadcast(Data.NewValue);
+			}
+		);
+		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AS->GetMaxHealthAttribute()).AddLambda(
+			[this](const FOnAttributeChangeData& Data)
+			{
+				OnMaxHealthChange.Broadcast(Data.NewValue);
+			}
+		);
+		//Call Hit React/Stunned function
+		AbilitySystemComponent->RegisterGameplayTagEvent(FDGameplayTags::Get().ability_HitReact, EGameplayTagEventType::NewOrRemoved).AddUObject(this, &ANPCBase::HitReactTagChanged);
+		//Broadcast Initial Values
+		OnHealthChange.Broadcast(AS->GetHealth());
+		OnMaxHealthChange.Broadcast(AS->GetMaxHealth());
+	}
+}
 
 void ANPCBase::PossessedBy(AController* NewController)
 {
@@ -144,43 +180,6 @@ void ANPCBase::SetToEndStun()
 	if (AIC && AIC->GetBlackboardComponent())
 	{
 		AIC->GetBlackboardComponent()->SetValueAsBool(FName("Stunned"), false);
-	}
-}
-
-void ANPCBase::BeginPlay()
-{
-	Super::BeginPlay();
-	GetCharacterMovement()->MaxWalkSpeed = BaseWalkSpeed;
-	InitAbilityActorInfo();
-	if (HasAuthority())
-	{
-		UBFLAbilitySystem::GiveStartupAbilities(this, AbilitySystemComponent, CharacterClass);
-	}
-	
-	if (UDUserWidget* EnemyHealthUI = Cast<UDUserWidget>(HealthBar->GetUserWidgetObject()))
-	{
-		EnemyHealthUI->SetWidgetController(this);
-	}
-
-	if (const UDAttributeSet* AS = Cast<UDAttributeSet>(AttributeSet))
-	{
-		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AS->GetHealthAttribute()).AddLambda(
-			[this](const FOnAttributeChangeData& Data)
-			{
-				OnHealthChange.Broadcast(Data.NewValue);
-			}
-		);
-		AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(AS->GetMaxHealthAttribute()).AddLambda(
-			[this](const FOnAttributeChangeData& Data)
-			{
-				OnMaxHealthChange.Broadcast(Data.NewValue);
-			}
-		);
-		//Call Hit React/Stunned function
-		AbilitySystemComponent->RegisterGameplayTagEvent(FDGameplayTags::Get().ability_HitReact, EGameplayTagEventType::NewOrRemoved).AddUObject(this, &ANPCBase::HitReactTagChanged);
-		//Broadcast Initial Values
-		OnHealthChange.Broadcast(AS->GetHealth());
-		OnMaxHealthChange.Broadcast(AS->GetMaxHealth());
 	}
 }
 

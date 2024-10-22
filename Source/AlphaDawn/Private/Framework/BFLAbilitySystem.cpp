@@ -67,8 +67,7 @@ UAbilityMenuController* UBFLAbilitySystem::GetAbilityMenuController(const UObjec
 	return nullptr;
 }
 
-void UBFLAbilitySystem::InitializeDefaultAttributes(const UObject* WorldContextObject, ECharacterClass CharacterClass,
-                                                    float Level, UAbilitySystemComponent* ASC)
+void UBFLAbilitySystem::InitializeDefaultAttributes(const UObject* WorldContextObject, ECharacterClass CharacterClass, float Level, UAbilitySystemComponent* ASC)
 {
 	AActor* AvatarActor = ASC->GetAvatarActor();
 	

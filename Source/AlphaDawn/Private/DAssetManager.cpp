@@ -8,8 +8,8 @@
 UDAssetManager& UDAssetManager::Get()
 {
 	check(GEngine)
-	UDAssetManager* RAssetManager = Cast<UDAssetManager>(GEngine->AssetManager);
-	return *RAssetManager;
+	UDAssetManager* DAssetManager = Cast<UDAssetManager>(GEngine->AssetManager);
+	return *DAssetManager;
 }
 
 void UDAssetManager::StartInitialLoading()
