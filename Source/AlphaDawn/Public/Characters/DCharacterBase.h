@@ -10,6 +10,7 @@
 #include "Interfaces/CombatInterface.h"
 #include "DCharacterBase.generated.h"
 
+class UFootstepsComponent;
 class UDebuffNiagaraComponent;
 class UGameplayAbility;
 class UGameplayEffect;
@@ -46,6 +47,8 @@ public:
 	FOnASCRegistered OnASCRegistered;
 	FOnDeath OnDeath;
 	FOnDamageSignature OnDamageDelegate;
+
+	class UFootstepsComponent* GetFootstepsComponent() const;
 	
 protected:
 	

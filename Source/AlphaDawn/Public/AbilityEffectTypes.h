@@ -166,6 +166,15 @@ protected:
 	
 };
 
+//FootstepsEnum - Do I want this code here?
+UENUM(BlueprintType)
+enum class EFoot: uint8
+{
+	Left UMETA(DisplayName = "Left"),
+	Right UMETA(DisplayName = "Right")
+};
+//
+
 template<>
 struct TStructOpsTypeTraits<FDGameplayEffectContext> : public TStructOpsTypeTraitsBase2<FDGameplayEffectContext>
 {
