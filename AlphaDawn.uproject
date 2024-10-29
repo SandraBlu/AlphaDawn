@@ -15,7 +15,8 @@
 				"GameplayAbilities",
 				"EnhancedInput",
 				"Niagara",
-				"AIModule"
+				"AIModule",
+				"PhysicsCore"
 			]
 		}
 	],
@@ -82,6 +83,22 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
+		},
+		{
+			"Name": "Buoyancy",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "PoseSearch",
+			"Enabled": true
+		},
+		{
+			"Name": "Chooser",
 			"Enabled": true
 		}
 	]
