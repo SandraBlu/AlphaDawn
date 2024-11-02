@@ -8,10 +8,1125 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce70f46d-56d9-4e08-9877-b0dfbf5aa561" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/ABP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/UEFN/ABP_Player.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AlphaDawn/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AlphaDawn/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlphaDawn.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/AlphaDawn.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/ABP_PlayerMM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/BS/BS_1D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/BS/BS_Katana.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/CR_Phelan_IK.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/ClimbStart_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/ClimbStart_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Down_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Down_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Idle_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Idle_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Left_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Left_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Right_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Right_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Up_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Climb_Up_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Down_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Down_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Left_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Left_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Right_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Right_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Up_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Jump/ClimbJump_Up_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BS1D.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BS1D.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BackLeft_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BackLeft_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BackRight_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_BackRight_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Left_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Left_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Right_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Right_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Up_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/JumpOff/ClimbJumpOff_Up_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Climbing/Ladder/Climb_Ladder_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Climbing/Ladder/Climb_Ladder_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Assassinations/2H_Assassinate_Send_1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Assassinations/Assassinate_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/BlockEnd_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/BlockHit_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/BlockLoop_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/BlockStart_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/AM_KatHitR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/F_Large_Hit_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/F_Large_Hit_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Kat_HitR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Kat_HitR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_End_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_End_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_Loop_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_Loop_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Falldown_F_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Air_Hit_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Air_Hit_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Air__DownLoop_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Air__DownLoop_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_B_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_B_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FD_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FD_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FL_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FL_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FR_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_FR_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_F_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_F_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_L_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_L_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_R_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_R_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_1_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_1_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_GetUp_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_GetUp_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_Loop_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_Loop_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_Root.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Hits/Lucy_Hit_Up_Root.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_Combo3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/AM_DrawKatana.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/FallingAttack_Loop01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/FallingAttack_Loop01.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo01.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo02.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo02.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo03.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/KatCombo03.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/Kat_Spin01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Attack/Kat_Spin01.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Attack2_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Attack3_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Combo1_Attack1_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Idle_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_RunForward_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Sheathe_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Kat_Unsheathe_InPlace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/MenuTumbling.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Equip.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Equip.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Idle.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Idle.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_JumpEnd.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_JumpFull.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_JumpLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_JumpStart.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunB.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunB.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunBL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunBL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunBR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunBR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunF.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunF.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunFL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunFL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunFR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunFR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_RunR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Sprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_Sprint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_SprintF.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_SprintF.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkB.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkB.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkBL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkBL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkBR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkBR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkF.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkF.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkFL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkFL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkFR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkFR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkL.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkL.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkR.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Movement/Kat_WalkR.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Katana/Seq_MenuSpin.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/ProjectileUndercut.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_AttackStaff_02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Firebolt.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_Shock.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AM_StaffAttack01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AimOffset/UE4_BM_Aim_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/AimOffset/UE4_WZ_Aim_AO.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Dodge_02_B_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Dodge_02_F_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Hurt_Light_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Backward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Forward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Start_Backward_Blendspace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Start_Forward_Blendspace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Stop_Backward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jog_Stop_Forward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Jump_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_BM_Roll_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Dodge_02_B_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Dodge_02_F_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Hurt_Light_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Backward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Forward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Start_Backward_Blendspace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Start_Forward_Blendspace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Stop_Backward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jog_Stop_Forward_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Jump_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/BlendSpace/UE4_WZ_Roll_BlendSpace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Jump_Loop_03_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/MRig.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Magic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BLC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BLD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BLU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BRC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BRD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_BRU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_FC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_FD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_FU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_LC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_LD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_LU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_RC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_RD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_BM_AimOffset_Aim_RU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BLC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BLD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BLU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BRC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BRD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_BRU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_FC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_FD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_FU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_LC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_LD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_LU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_RC_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_RD_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/Additive/UE4_WZ_AimOffset_Aim_RU_Additive_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_FC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_FD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_FU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_LC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_LD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_LU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_RC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_RD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_BM_AimOffset_Normal_RU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Aim_Offset/UE4_WZ_AimOffset_Aim_FC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_03_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_04_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_05_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_06_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_08_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_10_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_12_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_13_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_Aim_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_Aim_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_BM_Attack_Aim_03_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_04_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_06_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_07_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_10_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_11_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_12_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_Aim_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_Aim_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/UE4_WZ_Attack_Aim_04_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack/WZ_AttackLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack_Air/UE4_Attack_Air_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack_Air/UE4_Attack_Plunge_02_Begin_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack_Air/UE4_Attack_Plunge_02_Loop_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack_Air/UE4_BM_Attack_Plunge_02_Landing_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Attack_Air/UE4_WZ_Attack_Plunge_02_Landing_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_FL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_FR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_BM_Dodge_02_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_FL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_FR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Dodge/UE4_WZ_Dodge_02_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Getup_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Hurt_Heavy_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Hurt_Light_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Hurt_Light_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Hurt_Light_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_BM_Hurt_Light_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Getup_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Hurt_Heavy_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Hurt_Light_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Hurt_Light_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Hurt_Light_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Hurt/UE4_WZ_Hurt_Light_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_BM_Idle_Aim_Loop_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_BM_Idle_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_Idle_BM_to_WZ_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_Idle_WZ_to_BM_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_WZ_Idle_Aim_01_Loop_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Idle/UE4_WZ_Idle_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_BM_Jog_Loop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Loop/UE4_WZ_Jog_Loop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_BM_Jog_Start_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Start/UE4_WZ_Jog_Start_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_BM_Jog_Stop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jog_Stop/UE4_WZ_Jog_Stop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Begin_02_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Begin_02_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Begin_02_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Begin_02_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Begin_02_U_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Landing_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_BM_Jump_Landing_Jog_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_Jump_Loop_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_Jump_Loop_03_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Begin_02_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Begin_02_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Begin_02_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Begin_02_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Begin_02_U_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Landing_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Jump/UE4_WZ_Jump_Landing_Jog_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_BM_Roll_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_BM_Roll_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_BM_Roll_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_BM_Roll_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_BM_Roll_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_WZ_Roll_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_WZ_Roll_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_WZ_Roll_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_WZ_Roll_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Roll/UE4_WZ_Roll_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Run/UE4_Run_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Run/UE4_Run_03_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Run/UE4_Run_05_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_BM_Walk_Loop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_BL_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_BR_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Sequence/Walk_Loop/UE4_WZ_Walk_Loop_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Attack01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Attack02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Attack03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_AttackFlameThrower.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Firebolt.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_FlameLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Flamethrow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_BL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Jog_Loop_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_MissileAttack01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Run_03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Shock.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_BL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/Staff_Walk_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_07_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_10_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_11_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_12_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_Aim_02_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Attack_Plunge_02_Landing_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Hurt_Heavy_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Hurt_Light_B_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Hurt_Light_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Hurt_Light_L_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Hurt_Light_R_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Idle_Aim_01_Loop_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Idle_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Jump_Begin_02_U_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Jump_Landing_01_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Jump_Landing_Jog_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Staff/WZ_Roll_F_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Stun_A.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Stun_End.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Stun_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Stun_Start.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/ABP_Grenade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_DaggerThrow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeAim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/AM_GrenadeThrow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/A_daggerthrow_01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/MK2TPP_EquipPinPullAimThrowPunchUnequip_AnimMontage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/MK2TPP_IdleWalkSprintAim_BS1D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/MK2TPP_IdleWalkSprint_BS1D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Idle_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_Aim_End_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_Aim_Loop_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_Aim_Start_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_End_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_Loop_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Jump_Start_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Punch_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Sprint_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_Throw_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2/TPP_Grenade_UnEquip_Prop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/MK2TPP_AnimBP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/NinjaKickMidV1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Aim_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_Aim_End.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_Aim_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_Aim_Start.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_End.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Jump_Start.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Sprint.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Throw.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_UnEquip.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Walk.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_Grenade_Walk_Aim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_IdleWalkSprintAim_BS1D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/Throw/TPP_IdleWalkSprint_BS1D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/AO_Xbow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Center.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Center_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Center_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Down.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Down_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Down_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Up.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Up_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Aim_Up_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/AO/Xbow_V_Idle_ADS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Equip.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Fire_ADS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Fire_Hip.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Idle_ADS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Idle_Hip.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Idle_Inspect.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Idle_Spin.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Melee.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Raise_ADS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Reload_Back.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Reload_Quiver.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Unequip.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/VGrip/Xbow_V_Walk.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Back.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Back_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Back_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Front.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Front_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Front_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Combat/XBow/Walk/Xbow_V_Walk_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch2Idle_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch2Idle_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_CrouchIdle_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_CrouchIdle_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_BL_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_BL_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_BR_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_BR_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_B_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_B_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_FL_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_FL_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_FR_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_FR_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_F_End_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_F_End_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_F_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Crouch_F_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Idle2Crouch_Inplace.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Crouch/Lucy_Idle2Crouch_Inplace.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_1HandMelee_Kneel01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_1HandMelee_Kneel02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Blasted01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_BodyMangle01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_BodyMangle02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_BodyMangle03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_BodyMangle04.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Dizzy01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Dizzy02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Dramatic01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Dramatic02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Dramatic03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_ElectricShock01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_ElectricShock02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_ElectricShock03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_EnergyBurst01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_HeartAttack01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_HeartAttack02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_HeartAttack03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Kneel01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Kneel02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_OnFire01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_OnFire02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Poison01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Poison02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Shrivel01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Shrivel02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_Shrivel03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_WhileRunningForward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/Death_WhileWalkingForward.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/F_DodgeB.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/F_DodgeF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/F_DodgeL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Death/F_DodgeR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Fall_Loop_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_LandLight_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_LandRunLeft_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_LandRunRight_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_StartRunLeft_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_StartRunRight_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Jump_StartStatic_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Fall/Slide_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/Glider.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/GliderIdle_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/GliderOpen_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/Glider_AnimBP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/Glider_BP.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/Glider_PhysicsAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Glider/Glider_Skeleton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Gliding/Gliding_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Gliding/Gliding_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Gliding/StartGliding_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Gliding/StartGliding_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_FC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_FD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_FU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_LC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_LD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_LU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_RC_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_RD_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/AO_Phe_RU_Seq.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/Lucy_Idle.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/Lucy_TurnL_90_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Idle/Lucy_TurnR_90_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Jump/AM_LandHeavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Jump/Lucy_Jump_End_Heavy_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Jump/Lucy_Jump_End_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Jump/Lucy_Jump_Loop_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/ClimbDown/Animations/ClimbDown_Left_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/ClimbDown/Animations/ClimbDown_Right_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/ClimbDown/ClimbDown_Left_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/ClimbDown/ClimbDown_Right_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Ragdoll/Animations/GetUpBack_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Ragdoll/Animations/GetUpFront_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Ragdoll/GetUpBack_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Ragdoll/GetUpFront_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Roll/Animations/Roll_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Roll/Roll_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/DropDown_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultOverHigh1_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultOverLow1_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultUp_High1_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultUp_High1_Crouch_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultUp_High2_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/Animations/VaultUp_StepUp_Anim.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/DropDown_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultOverHigh1_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultOverLow1_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultUp_High1_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultUp_High1_Crouch_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultUp_High2_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Montages/Vault/VaultUp_StepUp_Anim_Montage.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_BL_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_BR_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_B_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_FL_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_FR_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_F_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_F_Stop_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_L_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Run_R_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Run/Lucy_Sprint_1_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Direction_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Direction_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Down_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Down_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Down_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Down_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Left_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Left_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Right_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Right_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Up_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_F_Up_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_RotationL_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_RotationL_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_RotationR_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_RotationR_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Rotation_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Rotation_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_UpDown_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_UpDown_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Up_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Additive/Swim_Additive_Up_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/EnterWater_Fall_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/EnterWater_Fall_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Slow_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Slow_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Static_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_F_Surface_Static_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_Idle_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_Idle_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_Surface_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Surface/Swim_Surface_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/SwimToIdle_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/SwimToIdle_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_BS.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_BS.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Slow_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Slow_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Sprint_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Sprint_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Static_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_F_Static_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_IdleUnderwater_Anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Animation/Swimming/Underwater/Swim_IdleUnderwater_Anim.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/ABP_Player.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_stand_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Climb_Start_2_5_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_run_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_run_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_stand_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_stand_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_walk_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Hurdle_1_0_walk_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_stand_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Mantle_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Vault_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Vault_1_0_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/AM_M_Neutral_Traversal_Vault_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/BS1D_Additive_Lean_Run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/BS_Additive_Lean_Run.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/BS_Neutral_AO_Stand.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+135_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+135_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+135_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+45_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+45_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+45_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+90_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+90_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X+90_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-135_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-135_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-135_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-45_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-45_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-45_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-90_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-90_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X-90_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X0_Y+90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X0_Y-90.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_AO_Stand_X0_Y0.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Break_v01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Break_v02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Break_v03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Break_v04.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Break_v05.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Idle_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_BL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_FL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_FR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_F_L_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_F_R_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_LL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_LR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_RL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Loop_RR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_BL_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_BL_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_BR_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_BR_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_B_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_B_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_FL_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_FL_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_FR_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_FR_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_F_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_F_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_LL_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_LL_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_LR_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_LR_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_RL_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_RL_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_RR_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Pivot_RR_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Start_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_FR_Rtfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Crouch_Stop_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Idle_turn_left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Idle_turn_right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Run_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Run_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Stand_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Stand_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Stand_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Stand_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Walk_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Land_Walk_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Start_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_B_Start_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Roll_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Roll_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Run_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Run_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Run_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Run_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stand_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stand_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stand_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stand_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stumble_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Stumble_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Walk_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Walk_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Walk_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Land_Walk_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Off_Run_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Off_Run_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Off_Walk_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Off_Walk_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Across_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Across_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Cliff_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Cliff_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Run_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Run_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Sprint_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Sprint_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Stand_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Stand_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Walk_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_F_Start_Walk_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Run_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Run_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Stand_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Stand_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Stand_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Stand_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Walk_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Land_Walk_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Start_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_LL_Start_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_Loop_Fall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Run_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Run_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Stand_Heavy_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Stand_Heavy_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Stand_Light_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Stand_Light_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Walk_Heavy.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Land_Walk_Light.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Start_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Jump_RL_Start_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Small_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Small_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Tight_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Tight_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Wide_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Arc_Wide_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_B_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_F_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LL_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LL_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LL_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LL_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LR_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LR_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LR_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_LR_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RL_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RL_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RL_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RL_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RR_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RR_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RR_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Box_RR_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Circle_Strafe_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Circle_Strafe_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BL_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_BR_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_B_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_B_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_B_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_B_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FL_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_FR_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_F_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_F_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_F_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Diamond_F_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BL_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BL_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BL_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BL_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BR_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BR_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BR_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_BR_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FL_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FL_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FL_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FL_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FR_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FR_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FR_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_FR_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LL_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LL_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LL_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LL_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LR_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LR_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LR_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_LR_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RL_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RL_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RL_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RL_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RR_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RR_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RR_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Hourglass_RR_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Base.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Left.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Left_into.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Left_out.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Right.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Right_into.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Lean_Pose_Right_out.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_BL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_FL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_FR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_F_L_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_F_R_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_LL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_LR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_LR_offset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_RL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_RR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_RR_offset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_Strafe_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Loop_Strafe_FL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_BL_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_BL_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_BR_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_BR_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_B_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_B_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_FL_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_FL_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_FR_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_FR_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_F_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_F_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_LL_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_LL_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_LR_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_LR_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_RL_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_RL_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_RR_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pivot_RR_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Pose_F_hold.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_FL_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_FL_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_FR_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_FR_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_F_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_F_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_F_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Prism_F_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_B_L_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_B_L_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_B_R_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_B_R_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_F_L_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_F_L_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_F_R_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Reface_Start_F_R_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Shuffle_LR_to_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Shuffle_LR_to_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Shuffle_RR_to_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Shuffle_RR_to_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Spin_F_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Start_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Stop_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_045_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_045_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_090_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_090_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_135_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_135_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_180_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_L_180_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_045_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_045_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_090_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_090_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_135_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_135_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_180_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Run_Turn_R_180_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v01.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v02.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v03.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v04.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v05.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Break_v06.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Idle_Loop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_045_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_045_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_090_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_090_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_135_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_135_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_180_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Stand_Turn_180_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Transition_Run_to_Walk_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Transition_Run_to_Walk_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Transition_Walk_to_Run_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Transition_Walk_to_Run_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_stand_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Climb_Start_2_5_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_run_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_run_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_stand_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_stand_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_walk_F_V2_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Hurdle_1_0_walk_F_V2_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_run_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_stand_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_walk_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Mantle_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Vault_1_0_run_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Vault_1_0_stand_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Traversal_Vault_1_0_walk_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Small_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Small_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Tight_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Tight_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Wide_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Arc_F_Wide_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Circle_Strafe_L.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Circle_Strafe_R.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_B.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_BL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_F.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_FL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_FR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_F_L_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_F_R_20.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_LL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_LR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_RL.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Loop_RR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_BL_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_BL_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_BR_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_BR_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_B_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_B_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_FL_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_FL_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_FR_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_FR_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_F_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_F_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_LL_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_LL_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_LR_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_LR_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_RL_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_RL_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_RR_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Pivot_RR_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_B_L_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_B_L_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_B_R_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_B_R_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_F_L_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_F_L_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_F_R_090.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Reface_Start_F_R_180.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Start_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_BL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_BL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_BR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_BR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_B_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_B_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_FL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_FL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_FR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_FR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_F_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_F_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_LL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_LL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_LR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_LR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_RL_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_RL_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_RR_Lfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/UEFN/M_Neutral_Walk_Stop_RR_Rfoot.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_BL_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_BR_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_B_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_FL_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_FR_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_F_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_L_Inplace.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Animation/Walk/Lucy_Walk_R_Inplace.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AnimNotifies/AN_MeleeHit.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AnimNotifies/AN_MeleeHit.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Player.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_GameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_GameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PC.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Framework/BP_PlayerState.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interfaces/iABP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interfaces/iABP.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BuildingMeshes/Cabins/CabinB/BP_CabinA.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuildingMeshes/Cabins/CabinB/BP_CabinA.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BuildingMeshes/Cabins/CabinB/FloorCeiling_01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuildingMeshes/Cabins/CabinB/FloorCeiling_01.uasset" afterDir="false" />
@@ -31,15 +1146,28 @@
       <change beforePath="$PROJECT_DIR$/Content/BuildingMeshes/Hunter_cabin/Prefabs/BP_Cabins/BP_Cabin_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuildingMeshes/Hunter_cabin/Prefabs/BP_Cabins/BP_Cabin_2.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/BuildingMeshes/Hunter_cabin/Prefabs/BP_Cabins/BP_Cabin_3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BuildingMeshes/Hunter_cabin/Prefabs/BP_Cabins/BP_Cabin_3.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/Meshes/NakedPhelan.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/Meshes/NakedPhelan.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_PhysicsAsset.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_PhysicsAsset.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Phelan/PhelanBlue_Skeleton.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FX/SFX/Surfaces/Physics/PM_Gravel.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/FX/SFX/Surfaces/Physics/PM_Wood.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/Actors/Potions/BP_EnergyCell.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/Actors/Potions/BP_EnergyCell.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Katana2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Katana2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Katana3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Katana3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Staff.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/ComboGraphs/CG_Staff.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_ElectricityBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_ElectricityBolt.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_FireBolt.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_Melee.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_Melee.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_StunGrenade.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GAS/GA/Player/GA_StunGrenade.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Input/IA_ChangeCamera.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/DA_InputConfig.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_ChangeCamera.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_ChangeCamera.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_Interact.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_Interact.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_Move.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_Move.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_OpenMap.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_OpenMap.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_OpenMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_OpenMenu.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_PrimaryAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_PrimaryAbility.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_PrimaryAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_PrimaryAttack.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_SecondaryAbility.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_SecondaryAbility.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Input/IA_SecondaryAttack.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IA_SecondaryAttack.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Input/IMC_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Input/IMC_Player.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/BP_MasterWeapon.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_ThrowMaster.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Inventory/BPWeapons/Throwables/BP_ThrowMaster.uasset" afterDir="false" />
@@ -59,10 +1187,8 @@
       <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/M_PlayerPreview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/M_PlayerPreview.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/RT_PlayerPreview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/RT_PlayerPreview.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/Equipment/UI_PlayerPreview.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Energy.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Energy.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Stamina.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/ProgressBars/UI_Stamina.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/AbilityEffectTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/AbilityEffectTypes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DCharacterBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DCharacterBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Private/Characters/DPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AlphaDawn/Public/Characters/DPlayer.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +1216,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Developer/AnimationDataController/Private/AnimDataControllerActions.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Editor/GraphEditor/Private/SGraphPin.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Editor/UnrealEd/Private/Kismet2/KismetReinstanceUtilities.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Core/Private/Logging/StructuredLog.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -106,6 +1230,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectHandle.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Engine/Private/Components/SplineComponent.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/Slate/Private/Framework/Docking/TabManager.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/UMG/Private/UserWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AlphaDawn.uproject" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AlphaDawn/Private/AI/DAIController.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -312,6 +1437,11 @@
       <workItem from="1730087762824" duration="98000" />
       <workItem from="1730147955106" duration="1786000" />
       <workItem from="1730164634478" duration="185000" />
+      <workItem from="1730164869276" duration="808000" />
+      <workItem from="1730209020191" duration="4639000" />
+      <workItem from="1730293752486" duration="3198000" />
+      <workItem from="1730304898294" duration="527000" />
+      <workItem from="1730423710694" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -333,7 +1463,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Private/UObject/Field.cpp</url>
-          <line>877</line>
+          <line>851</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
